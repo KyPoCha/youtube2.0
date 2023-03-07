@@ -10,7 +10,7 @@ import {
 } from "./components";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/youtube2">
     <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />
       <Routes>
